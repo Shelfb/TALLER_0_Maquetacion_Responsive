@@ -24,3 +24,40 @@ body{
 h1,h2,h3,h4,h5{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.item{
+    padding: 1rem;
+}
+
+.menu a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.navbar-button{
+    background-color: var(--azuloscuro);
+    padding: 0.5rem 1rem;
+    color: var(--blanco);
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu i{
+    margin-right: 0.5rem;
+}
+
+.logo img{
+    height: 3rem;
+}
+
