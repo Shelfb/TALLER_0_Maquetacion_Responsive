@@ -99,7 +99,11 @@ a {
     cursor: pointer;
     margin-top: 10px;
     width: 33em;
+}
 
+.formulario button a{
+        text-decoration: none;
+        color: #fff;
 }
 
 .registro {
@@ -110,6 +114,10 @@ a {
 .registro a {
     color: #000;
 }
+
+a{
+    text-decoration: none;
+  }
 
 @media (max-width: 768px) {
     .formulario {
